@@ -1,0 +1,132 @@
+/*font-family: 'Raleway', sans-serif;*/
+:root {
+  --primary-color: #2e2f42;
+  --first-acsent-color: #4d5ae5;
+  --second-acsent-color: #404bbf;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--white-color);
+  color: #434455;
+  font-size: 16px;
+}
+
+.title {
+  color: var(--primary-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.undertitle {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.list {
+  list-style-type: none;
+}
+.item-list {
+  background-color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--second-acsent-color);
+}
+.link:active {
+  color: var(--second-acsent-color);
+}
+/* header section */
+.navigation .logotype,
+.footer-section .logotype {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: var(--first-acsent-color);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+}
+.acsent-logo {
+  color: var(--primary-color);
+}
+
+.nav-link {
+  color: var(--primary-color);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.contacts {
+  font-style: normal;
+}
+.contact-link {
+  color: #434455;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* hero and button section */
+.hero-section {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  text-align: center;
+}
+.hero-section-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero-section .button {
+  background-color: var(--first-acsent-color);
+  color: var(--white-color);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--second-acsent-color);
+}
+/* business technology section */
+.title-colorless {
+  color: var(--white-color);
+}
+/* team members section */
+.team-section {
+  background-color: #f4f4fd;
+  text-align: center;
+}
+/* Our Portfolio section */
+.portfolio-section-title {
+  text-align: center;
+}
+
+/* page footer */
+.footer-section {
+  color: #f4f4fd;
+  background-color: var(--primary-color);
+  text-align: left;
+}
+.footer-section .acsent-logo {
+  color: #f4f4fd;
+}
