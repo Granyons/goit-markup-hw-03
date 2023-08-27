@@ -5,7 +5,36 @@
   --second-acsent-color: #404bbf;
   --white-color: #ffffff;
 }
+/* resetting default styles */
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+button {
+  cursor: pointer;
+}
+image {
+  display: block;
+}
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+/* set base styles */
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--white-color);
@@ -33,16 +62,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.list {
-  list-style-type: none;
-}
+
 .item-list {
   background-color: #ffffff;
 }
 
-.link {
-  text-decoration: none;
-}
 .link:hover,
 .link:focus {
   color: var(--second-acsent-color);
