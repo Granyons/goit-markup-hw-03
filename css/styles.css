@@ -6,6 +6,9 @@
   --white-color: #ffffff;
 }
 /* resetting default styles */
+/* * {
+  outline: 1px solid tomato;
+} */
 
 h1,
 h2,
@@ -25,7 +28,7 @@ ul {
 button {
   cursor: pointer;
 }
-image {
+img {
   display: block;
 }
 .list {
@@ -42,6 +45,9 @@ body {
   font-size: 16px;
 }
 
+.container {
+  width: 1128px;
+}
 .title {
   color: var(--primary-color);
   font-size: 36px;
@@ -73,6 +79,9 @@ body {
 }
 .link:active {
   color: var(--second-acsent-color);
+}
+.list {
+  display: flex;
 }
 /* header section */
 .navigation .logotype,
