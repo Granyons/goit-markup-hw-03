@@ -109,6 +109,8 @@ body {
 }
 .nav-menu {
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .navigation .logotype,
 .footer-section .logotype {
