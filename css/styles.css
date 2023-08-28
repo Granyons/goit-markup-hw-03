@@ -37,7 +37,7 @@ img {
 .link {
   text-decoration: none;
 }
-/* set base styles */
+/* ========= BASE styles ============= */
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--white-color);
@@ -87,7 +87,13 @@ body {
 .list {
   display: flex;
 }
-/* header section */
+/* ========= HEADER section ============ */
+.page-header-container {
+  display: flex;
+}
+.navigation {
+  display: flex;
+}
 .navigation .logotype,
 .footer-section .logotype {
   font-family: 'Raleway', sans-serif;
@@ -120,7 +126,7 @@ body {
   text-align: center;
 }
 
-/* hero and button section */
+/*======== HERO-button section ============== */
 .hero-section {
   background-color: var(--primary-color);
   color: var(--white-color);
@@ -144,21 +150,21 @@ body {
 .button:focus {
   background-color: var(--second-acsent-color);
 }
-/* business technology section */
+/* ======= TECHNOLOGY section ======== */
 .title-colorless {
   color: var(--white-color);
 }
-/* team members section */
+/* ======== TEAM section =========== */
 .team-section {
   background-color: #f4f4fd;
   text-align: center;
 }
-/* Our Portfolio section */
+/* ======== PORTFOLIO section ========= */
 .portfolio-section-title {
   text-align: center;
 }
 
-/* page footer */
+/* ======== page FOOTER ============== */
 .footer-section {
   color: #f4f4fd;
   background-color: var(--primary-color);
