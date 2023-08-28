@@ -46,9 +46,11 @@ body {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .title {
   color: var(--primary-color);
