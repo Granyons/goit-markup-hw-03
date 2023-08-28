@@ -109,6 +109,14 @@ body {
 }
 .nav-menu {
   gap: 40px;
+}
+
+.nav-link {
+  color: var(--primary-color);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -125,19 +133,10 @@ body {
 .acsent-logo {
   color: var(--primary-color);
 }
-
-.nav-link {
-  color: var(--primary-color);
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
+/* ======== contacts =========== */
 .contacts {
   font-style: normal;
   margin-left: auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .contacts-list {
   gap: 40px;
