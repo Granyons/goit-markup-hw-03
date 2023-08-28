@@ -91,10 +91,14 @@ body {
 .page-header {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container {
   display: flex;
   justify-content: space-between;
+}
+.navigation .logotype {
+  margin-right: 76px;
 }
 .navigation {
   display: flex;
@@ -129,6 +133,7 @@ body {
 }
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 .contacts-list {
   column-gap: 40px;
