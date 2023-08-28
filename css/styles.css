@@ -94,6 +94,7 @@ body {
 }
 .page-header-container {
   display: flex;
+  justify-content: space-between;
 }
 .navigation {
   display: flex;
@@ -128,6 +129,9 @@ body {
 }
 .contacts {
   font-style: normal;
+}
+.contacts-list {
+  column-gap: 40px;
 }
 .contact-link {
   color: #434455;
