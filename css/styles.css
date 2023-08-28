@@ -133,7 +133,7 @@ body {
 .acsent-logo {
   color: var(--primary-color);
 }
-/* ======== contacts =========== */
+/* === contacts ==== */
 .contacts {
   font-style: normal;
   margin-left: auto;
@@ -154,12 +154,18 @@ body {
   background-color: var(--primary-color);
   color: var(--white-color);
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-section-title {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-section .button {
   background-color: var(--first-acsent-color);
@@ -168,6 +174,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
 }
 .button:hover,
 .button:focus {
