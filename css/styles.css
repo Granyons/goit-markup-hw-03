@@ -108,7 +108,7 @@ body {
   justify-content: space-between;
 }
 .nav-menu {
-  column-gap: 40px;
+  gap: 40px;
 }
 .navigation .logotype,
 .footer-section .logotype {
@@ -136,7 +136,7 @@ body {
   margin-left: auto;
 }
 .contacts-list {
-  column-gap: 40px;
+  gap: 40px;
 }
 .contact-link {
   color: #434455;
