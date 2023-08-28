@@ -98,6 +98,9 @@ body {
 .navigation {
   display: flex;
   align-items: center;
+  width: 100%;
+  max-width: 452px;
+  justify-content: space-between;
 }
 .nav-menu {
   column-gap: 40px;
