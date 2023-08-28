@@ -88,11 +88,19 @@ body {
   display: flex;
 }
 /* ========= HEADER section ============ */
+.page-header {
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
+}
 .page-header-container {
   display: flex;
 }
 .navigation {
   display: flex;
+  align-items: center;
+}
+.nav-menu {
+  column-gap: 40px;
 }
 .navigation .logotype,
 .footer-section .logotype {
