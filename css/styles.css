@@ -89,8 +89,8 @@ body {
 }
 /* ========= HEADER section ============ */
 .page-header {
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container {
