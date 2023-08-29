@@ -225,7 +225,18 @@ body {
   color: #f4f4fd;
   background-color: var(--primary-color);
   text-align: left;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
+
 .footer-section .acsent-logo {
   color: #f4f4fd;
+}
+.footer-section .logotype {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.foter-text {
+  display: inline-block;
+  width: 264px;
 }
