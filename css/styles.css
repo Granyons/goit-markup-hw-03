@@ -64,6 +64,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .text {
   font-weight: 400;
@@ -207,19 +208,43 @@ body {
 .technology-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
-.technology-list-title {
-  margin-bottom: 8px;
-}
+
 /* ======== TEAM section =========== */
 .team-section {
   background-color: #f4f4fd;
   text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-/* ======== PORTFOLIO section ========= */
-.portfolio-section-title {
-  text-align: center;
+.team-section-title {
+  padding-bottom: 72px;
+}
+.team-list {
+  gap: 24px;
 }
 
+.team-item-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+/* ======== PORTFOLIO section ========= */
+.portfolio-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.portfolio-section-title {
+  text-align: center;
+  padding-bottom: 72px;
+}
+.portfolio-list {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-item-conteiner {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 /* ======== page FOOTER ============== */
 .footer-section {
   color: #f4f4fd;
