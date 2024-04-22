@@ -13,6 +13,15 @@
   --dairy: #fcfcfc;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: var(--white);
+}
 /* reset styles */
 h1,
 h2,
@@ -39,25 +48,18 @@ ol {
   margin: 0;
   padding-left: 0;
 }
-.list {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
-.link {
-  text-decoration: none;
-}
+
 a {
   text-decoration: none;
 }
-
+/* page sizing */
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -97,17 +99,8 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* ======== TEG SELECTOR ======== */
-body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--slate);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  background-color: var(--white);
-}
-/* ========== LOGOTIPE ======== */
+/* ============== PAGE-HEADER ============= */
+/*  -- LOGO --  */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -120,7 +113,7 @@ body {
 .logo-part {
   color: var(--navy-blue);
 }
-/* ============ NAIGATION ========= */
+/* -- NAIGATION -- */
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -132,7 +125,7 @@ body {
 .nav-link:focus {
   color: var(--ocean);
 }
-/* ========== ADDRESS ===========*/
+/* -- ADDRESS --*/
 .address {
   font-style: normal;
 }
@@ -140,8 +133,8 @@ body {
 .address-link:focus {
   color: var(--ocean);
 }
-/* =========== HERO-MAIN CONTENT ========= */
-
+/* ============== PAGE-MAIN CONTENT ============ */
+/* ==== HERO SECTION ==== */
 .hero {
   background-color: var(--navy-blue);
 }
@@ -170,9 +163,9 @@ body {
   background-color: var(--ocean);
 }
 
-/* ============ TEH-STACK SECTION ========== */
+/* ==== TEH STACK SECTION ==== */
 
-/* ========= TEAM SECTION ========== */
+/* ==== TEAM SECTION ==== */
 .team-section {
   background-color: var(--cloud);
 }
@@ -183,9 +176,9 @@ body {
   text-align: center;
 }
 
-/* ========= PORTFOLIO SECTION ========== */
+/* ==== PORTFOLIO SECTION ==== */
 
-/* ========= PAGE FOOTER ========== */
+/* ============= PAGE FOOTER ============= */
 .footer {
   background-color: var(--navy-blue);
 }
