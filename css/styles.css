@@ -13,15 +13,6 @@
   --dairy: #fcfcfc;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--slate);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  background-color: var(--white);
-}
 /* reset styles */
 h1,
 h2,
@@ -48,22 +39,29 @@ ol {
   margin: 0;
   padding-left: 0;
 }
-
 a {
   text-decoration: none;
 }
-/* page sizing */
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+/* page */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: var(--white);
 }
-
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  display: flex;
 }
-
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 /* (title & text) */
 .title {
   font-weight: 700;
@@ -100,6 +98,10 @@ a {
   overflow: hidden;
 }
 /* ============== PAGE-HEADER ============= */
+
+.header-container {
+  background-color: #404bbf;
+}
 /*  -- LOGO --  */
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -166,6 +168,8 @@ a {
 /* ==== TEH STACK SECTION ==== */
 
 /* ==== TEAM SECTION ==== */
+.team-section-container {
+}
 .team-section {
   background-color: var(--cloud);
 }
