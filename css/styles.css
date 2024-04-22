@@ -62,7 +62,7 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-/* (title & text) */
+/* (title & text & logo) */
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -97,6 +97,16 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+  margin-right: auto;
+}
 /* ============== PAGE-HEADER ============= */
 
 .header-container {
@@ -106,15 +116,10 @@ body {
   display: flex;
 }
 /*  -- Logo --  */
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--iris);
-}
+/* .logo-header {
+  background-color: green;
+  margin-right: auto;
+} */
 .logo-part {
   color: var(--navy-blue);
 }
@@ -166,7 +171,6 @@ body {
   letter-spacing: 0.04em;
   text-align: center;
   color: var(--white);
-
   background-color: var(--iris);
 }
 
@@ -180,6 +184,7 @@ body {
 /* ==== TEAM SECTION ==== */
 .team-section-container {
 }
+
 .team-section {
   background-color: var(--cloud);
 }
