@@ -1,28 +1,3 @@
-/* // <uniquifier>: Use a unique and descriptive class name
-
-.raleway-<uniquifier > {
-  font-family: 'Raleway', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
-roboto: CSS classes .roboto-regular {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.roboto-medium {
-    font-weight: 500;
-  }
-
-.roboto-bold {
-    font-weight: 700;
-  } */
-
-/* reset styles */
-
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -38,20 +13,91 @@ roboto: CSS classes .roboto-regular {
   --dairy: #fcfcfc;
 }
 
+/* reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
 ul,
 ol {
-  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.link {
+  text-decoration: none;
 }
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-button {
-  cursor: pointer;
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-/* teg-selectors */
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* (title & text) */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+  text-transform: capitalize;
+}
+.under-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* ======== TEG SELECTOR ======== */
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--slate);
@@ -61,7 +107,7 @@ body {
   letter-spacing: 0.02em;
   background-color: var(--white);
 }
-/* logotipe */
+/* ========== LOGOTIPE ======== */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -74,7 +120,7 @@ body {
 .logo-part {
   color: var(--navy-blue);
 }
-/* navigation */
+/* ============ NAIGATION ========= */
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -86,7 +132,7 @@ body {
 .nav-link:focus {
   color: var(--ocean);
 }
-/* address*/
+/* ========== ADDRESS ===========*/
 .address {
   font-style: normal;
 }
@@ -94,7 +140,7 @@ body {
 .address-link:focus {
   color: var(--ocean);
 }
-/* --hero-main content-- */
+/* =========== HERO-MAIN CONTENT ========= */
 
 .hero {
   background-color: var(--navy-blue);
@@ -123,35 +169,10 @@ body {
 .hero-button:focus {
   background-color: var(--ocean);
 }
-/* (undertitles & title & text)  */
-.under-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
-}
-.title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: var(--navy-blue);
-  text-transform: capitalize;
-}
-.text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate);
-}
-/* --teh-stack section-- */
-/* (teh-stack unvisible title) */
-.title-business-technology {
-  color: var(--white);
-}
-/* --team section-- */
+
+/* ============ TEH-STACK SECTION ========== */
+
+/* ========= TEAM SECTION ========== */
 .team-section {
   background-color: var(--cloud);
 }
@@ -162,9 +183,9 @@ body {
   text-align: center;
 }
 
-/* -- portfolio section-- */
+/* ========= PORTFOLIO SECTION ========== */
 
-/* --page footer-- */
+/* ========= PAGE FOOTER ========== */
 .footer {
   background-color: var(--navy-blue);
 }
