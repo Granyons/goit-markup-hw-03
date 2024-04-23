@@ -251,11 +251,36 @@ body {
 .team-item-box {
   padding: 32px 16px;
 }
-/* ==== PORTFOLIO SECTION ==== */
 
+/* ==== PORTFOLIO SECTION ==== */
+.portfolio-section-title {
+  margin-bottom: 72px;
+}
+.portfolio-section-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.portfolio-list-item {
+  background: var(--white);
+  width: 360px;
+  height: 420px;
+  border: 1px solid var(--cornflower);
+  flex-basis: calc((100% - 2 * 24px) / 3);
+}
+.portfolio-item-box {
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.portfolio-item-title {
+  margin-bottom: 8px;
+}
 /* ============= PAGE FOOTER ============= */
 .footer {
   background-color: var(--navy-blue);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-part-footer {
@@ -263,4 +288,6 @@ body {
 }
 .text-footer {
   color: var(--cloud);
+  margin-top: 16px;
+  width: 264px;
 }
