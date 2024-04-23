@@ -206,10 +206,7 @@ body {
 }
 
 /* ==== TEH STACK SECTION ==== */
-.teh-stack-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 .teh-stack-list {
   display: flex;
   max-width: 1128px;
@@ -217,21 +214,38 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-.teh-stack-text {
-  margin-top: 8px;
+.teh-list-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
+.teh-item-title {
+  margin-bottom: 8px;
+}
+
 /* ==== TEAM SECTION ==== */
-.team-section-container {
-}
 
 .team-section {
   background-color: var(--cloud);
 }
+
+.team-section-container {
+}
+.team-section-title {
+  margin-bottom: 72px;
+}
 .team-section-list {
+  display: flex;
+  gap: 24px;
 }
 .team-section-item {
   background: var(--white);
   text-align: center;
+
+  width: 264px;
+  height: 380px;
+  padding: 0px 0px 32px 0px;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 /* ==== PORTFOLIO SECTION ==== */
