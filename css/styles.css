@@ -273,8 +273,9 @@ body {
 .portfolio-item-box {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
-.portfolio-item-title {
+.portfolio-under-title {
   margin-bottom: 8px;
 }
 /* ============= PAGE FOOTER ============= */
