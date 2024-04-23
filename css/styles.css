@@ -249,9 +249,11 @@ body {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .team-item-box {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
-
+.team-item-title {
+  margin-bottom: 8px;
+}
 /* ==== PORTFOLIO SECTION ==== */
 .portfolio-section-title {
   margin-bottom: 72px;
@@ -265,13 +267,12 @@ body {
   background: var(--white);
   width: 360px;
   height: 420px;
-  border: 1px solid var(--cornflower);
   flex-basis: calc((100% - 2 * 24px) / 3);
+  row-gap: 48px;
 }
 .portfolio-item-box {
-  padding-left: 16px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-item-title {
   margin-bottom: 8px;
@@ -282,12 +283,16 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 
 .logo-part-footer {
   color: var(--cloud);
 }
 .text-footer {
   color: var(--cloud);
-  margin-top: 16px;
+
   width: 264px;
 }
